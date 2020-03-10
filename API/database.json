@@ -1,27 +1,39 @@
 {
-"products": [
+  "products": [{}],
+  "locations": [
     {
-
-    }
-] ,
-"locations": [
+      "id": 1,
+      "address": "200 kandy way ",
+      "name": "Cotton Candy Counter"
+    },
     {
-        "address": "200 kandy way "
-    }
-],
-"employees":[
+      "id": 2,
+      "address": "300 Butterfingers",
+      "name": "Sticky Fingers"
+    },
     {
-
+      "id": 3,
+      "address": "400 Chocolate Way ",
+      "name": "MMMM good"
     }
-],
-"productTypes": [
+  ],
+  "employees": [
     {
-
-    }
-],
-"customers": [
+      "id": 1,
+      "name": "Jeremy Bakker",
+      "locationId": 2
+    },
     {
-
+      "id": 2,
+      "name": "Lily Wild",
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Meg Vander",
+      "locationId": 3
     }
-]
+  ],
+  "productTypes": [{}],
+  "customers": [{}]
 }

@@ -1,9 +1,11 @@
 import React from "react"
 import Product from "../components/Product/Product"
-import Location from "../components/Location/Location"
+import LocationList from "../components/Location/LocationList"
+import LocationProvider from "../components/Location/LocationProvider"
 import Customer from "../components/Customer/Customer"
-import Employee from "../components/Employee/Employee"
 import './KandyKorner.css';
+import EmployeeProvider from "./Employee/EmployeeProvider"
+import EmployeeList from "./Employee/EmployeeList"
 
 
 export default () => (
@@ -22,9 +24,9 @@ export default () => (
         </article>
         <h2>Locations</h2>
         <article className="locations">
-            <Location />
-            <Location />
-            <Location />
+            <LocationProvider>
+                <LocationList />
+            </LocationProvider>
         </article>
         <h2>Customers</h2>
         <article className="customers">
@@ -34,9 +36,9 @@ export default () => (
         </article>
         <h2>Employees</h2>
         <article className="employees">
-            <Employee />
-            <Employee />
-            <Employee />
+            <EmployeeProvider>
+                <EmployeeList />
+            </EmployeeProvider>
         </article>
     </>
 
