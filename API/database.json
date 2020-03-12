@@ -1,5 +1,30 @@
 {
-  "products": [{}],
+  "products": [
+    {
+      "id": 1,
+      "name": "Cotton Candy",
+      "flavor": "BumbleGum",
+      "productTypeId": 1
+    },
+    {
+      "id": 2,
+      "name": "Hersey's Bar",
+      "flavor": "Chocolate",
+      "productTypeId": 2
+    },
+    {
+      "id": 3,
+      "name": "Snickers",
+      "flavor": "Chocolate",
+      "productTypeId": 3
+    },
+    {
+      "id": 4,
+      "name": "Twizzlers",
+      "flavor": "Strawberry",
+      "productTypeId": 4
+    }
+  ],
   "locations": [
     {
       "id": 1,
@@ -34,6 +59,23 @@
       "locationId": 3
     }
   ],
-  "productTypes": [{}],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "Hard Candy"
+    },
+    {
+      "id": 2,
+      "type": "Gum"
+    },
+    {
+      "id": 3,
+      "type": "Chocolate"
+    },
+    {
+      "id": 4,
+      "type": "Soda"
+    }
+  ],
   "customers": [{}]
 }
