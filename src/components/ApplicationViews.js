@@ -9,6 +9,7 @@ import { ProductTypeProvider } from "./ProductType/ProductTypeProvider"
 import { EmployeeProvider } from "./Employee/EmployeeProvider"
 import CustomertList from "./Customer/CustomerList"
 import EmployeeList from "./Employee/EmployeeList"
+import EmployeeForm from "./Employee/EmployeeForm"
 
 export default (props) => {
     return (
@@ -33,11 +34,16 @@ export default (props) => {
                 </ProductTypeProvider>
             </ProductProvider>
 
+
+
             <EmployeeProvider>
                 <LocationProvider>
-                    <Route path="/employees">
-                        <EmployeeList />
-                    </Route>
+                    <Route exact path="/employees" render={
+                        props => <EmployeeList {...props} />
+                    } />
+                    <Route path="/employees/create" render={
+                        props => <EmployeeForm {...props} />
+                    } />
                 </LocationProvider>
             </EmployeeProvider>
         </>
