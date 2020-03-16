@@ -57,6 +57,21 @@
       "id": 3,
       "name": "Meg Vander",
       "locationId": 3
+    },
+    {
+      "name": "McGarrett",
+      "locationId": 1,
+      "id": 4
+    },
+    {
+      "name": "Lily",
+      "locationId": 3,
+      "id": 5
+    },
+    {
+      "name": "Heidi",
+      "locationId": 2,
+      "id": 6
     }
   ],
   "productTypes": [
