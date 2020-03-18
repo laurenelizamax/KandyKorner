@@ -94,24 +94,16 @@
   ],
   "customers": [
     {
-      "id": 1,
-      "name": "Dylan Pickle",
-      "email": "dlyp.@gmail.com"
+      "email": "lauren@lauren.com",
+      "password": "lauren",
+      "name": "lauren maxwell",
+      "id": 5
     },
     {
-      "id": 2,
-      "name": "Heidi Smith",
-      "email": "heidi.@gmail.com"
-    },
-    {
-      "id": 3,
-      "name": "Phil Gris",
-      "email": "gris.@gmail.com"
-    },
-    {
-      "id": 4,
-      "name": "Fortunato M",
-      "email": "42.@gmail.com"
+      "email": "mg@gmail.com",
+      "password": "Mac64",
+      "name": "McGarrett Maxwell",
+      "id": 6
     }
   ]
 }
